@@ -33,6 +33,10 @@ export const options = [
           • web3 applications development<br />
           • creating reusable components<br />
           • integration of libraries, third-party APIs and other technologies such as: RainbowKit, Redux-persist, CodeMirror, Alchemy, Covalent, RTK Query and others<br />
+          • migration from legacy technologies to newer ones: <br />
+            &nbsp;&nbsp;&nbsp; Redux -&gt; Redux Toolkit, <br />
+            &nbsp;&nbsp;&nbsp; Ethers v6 -&gt; Viem, <br />
+            &nbsp;&nbsp;&nbsp; implementation of EIP1559 standards<br />
           • code refactoring <br />
           • finding and fixing bugs<br />
           • writing test cases<br />
