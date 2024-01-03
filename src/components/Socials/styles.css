@@ -1,0 +1,34 @@
+div.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 3rem;
+}
+
+div.social-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0.8rem;
+}
+
+div.social-wrapper a {
+  text-decoration: none;
+}
+
+div.social-wrapper a:link {
+  color: var(--basicTextColor);
+}
+
+div.social-wrapper a:visited {
+  color: var(--basicTextColor);
+}
+
+@media(max-width: 550px) {
+  div.social-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.8rem;
+  }
+}

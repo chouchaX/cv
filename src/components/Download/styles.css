@@ -1,0 +1,10 @@
+div.download {
+  display: flex;
+}
+
+@media (max-width: 550px) {
+  div.download {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+}

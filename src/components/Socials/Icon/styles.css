@@ -1,0 +1,8 @@
+span.icon-wrapper {
+  display: flex;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+div.telegram {
+  display: flex;
+}
+
+@media (max-width: 550px) {
+  div.telegram {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+}

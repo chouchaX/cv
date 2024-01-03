@@ -1,0 +1,82 @@
+div.menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 3rem;
+  max-width: 34rem;
+  white-space: pre-line;
+}
+
+div.menu-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+}
+
+span.tab-content {
+  color: var(--basicTextColor);
+}
+
+input.radio {
+  position: static;
+  display: none;
+}
+
+label.tabs {
+  margin: 0;
+  position: relative;
+  color: var(--basicTextColor);
+  cursor: pointer;
+  height: 2.2rem;
+  
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.16rem;
+  text-transform: uppercase;
+}
+
+#PROFILE:checked ~ #option, #EXPERIENCE:checked ~ #option, #TECH_STACK:checked ~ #option {
+  padding-bottom: 0.3rem;
+  color: var(--mainTextColor);
+  border-bottom: 0.08rem var(--mainTextColor) solid;
+}
+
+@media (max-width: 750px) {
+  div.menu-container {
+    max-width: 26rem;
+    gap: 2rem;
+  }
+
+  div.menu-wrapper {
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  label.tabs {
+    height: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.12rem;
+  }
+}
+
+@media (max-width: 550px) {
+  label.tabs {
+    color: var(--basicTextColor);
+    height: 1.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.12rem;
+  }
+
+  div.menu-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+}
+
